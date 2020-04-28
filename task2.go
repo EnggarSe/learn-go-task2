@@ -43,7 +43,7 @@ func BilanganGanjil() {
 	for j := 0; j < len(array1); j++ {
 
 		if array1[j]%2 == 1 {
-			fmt.Println("Bilangan Genap 	: ", array1[j])
+			fmt.Println("Bilangan Ganjil 	: ", array1[j])
 			countGanjil++
 		}
 	}
