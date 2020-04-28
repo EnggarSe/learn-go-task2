@@ -67,7 +67,7 @@ func BilanganPrima() {
 		}
 		if count == 2 && array1[j] > 1 {
 			jumlah++
-			fmt.Println(array1[j], "Adalah Bilangan Prima")
+			fmt.Println("Bilangan Prima :", array1[j])
 
 		}
 	}
