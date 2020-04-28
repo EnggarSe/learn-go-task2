@@ -8,13 +8,10 @@ import (
 func main() {
 	fmt.Println("===========================Dibawah Merupakan Tugas Bilangan Genap=====================================")
 	BilanganGenap()
-	fmt.Println("======================================================================================================")
 	fmt.Println("===========================Dibawah Merupakan Tugas Bilangan Ganjil=====================================")
 	BilanganGanjil()
-	fmt.Println("======================================================================================================")
 	fmt.Println("===========================Dibawah Merupakan Tugas Bilangan Prima=====================================")
 	BilanganPrima()
-	fmt.Println("======================================================================================================")
 }
 func BilanganGenap() {
 	array1 := make([]int, 30)
@@ -51,9 +48,9 @@ func BilanganGanjil() {
 }
 
 func BilanganPrima() {
-	array1 := make([]int, 26)
+	array1 := make([]int, 30)
 	jumlah := 0
-	for i := 0; i < len(array1); i++ {
+	for i := 0; i < len(array1)-10; i++ {
 		array1[i] = i
 	}
 	fmt.Println(array1)
